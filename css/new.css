@@ -1,0 +1,234 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+body{
+        background-color: #fff;
+
+}
+nav {
+    position: fixed !important;
+    z-index: 1;
+    top:0;
+    width:100%;
+    }
+.bg-bg{
+    /* background-color: #394867; */
+    /* background-image: url('../images/background_nav.jpg'); */
+    background-color: #fed75c;
+}
+.bg-2{
+    padding-top: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+}
+.bg-3{
+    background-color: #F1F6F9!important;
+}
+.nb{
+font-size: 1.5em;
+font-weight: normal;
+color: hsl(0, 0%, 100%)!important;
+letter-spacing: .4em;
+}
+.ii{
+    border-radius: 50px;
+    opacity: 95%;
+}
+.nav-item{
+    font-size: larger;
+    font-weight: normal;
+}
+.nav-item a{
+    color: #fff!important;
+    letter-spacing: 0.1em;
+}
+.btn-order{
+    background-color:#fb89b9;
+    border-radius: 15px;
+}
+.btn-order:hover{
+    background-color:#05BFDB;
+    border-radius: 15px;
+}
+.nav-item:hover{
+    background-color: #05BFDB;
+    border-radius: 15px;
+}
+.nav-item:active{
+    background-color: #0b5b68;
+}
+.nav-item:active a{
+    color: #fff!important;
+}
+.pads{
+    padding-top: 1rem;
+    padding-bottom: 12rem;
+    width: 60%;
+    padding-left: 15rem;
+}
+.sform{
+    margin: 2% auto;
+    width: 1000px;
+    padding: 30px 25px;
+    background: rgba(220, 220, 220, .5);
+    border-radius: 5px;
+}
+.tit{
+    font-size: 3.5rem;
+    color: #fff;
+    border-radius: 15px;
+    background-color: #bdb07a;
+    box-shadow: 0 0 20px #164ec7;
+}
+.titlsmall{
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+.card{
+    margin: 2%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+  
+}
+.card h1{
+    font-size: x-large;
+}
+.card-featured{
+    border: none!important;
+}
+.card-hover h1{
+    color: #000!important;
+}
+
+.border-bottom{
+border-bottom: 5px solid rgb(236, 8, 0)!important;
+}
+.border-bottom2{
+    border-bottom: 5px solid rgba(255, 123, 0, 0.75)!important;
+    }
+.titel{
+    font-size: 2rem!important;
+}
+.shadow1{
+    box-shadow: 27px 28px 5px 9px rgb(236, 8, 0)!important;
+    border-radius: 15px;
+}
+.shadow2{
+    box-shadow: -27px 28px 5px 9px rgba(255, 123, 0, 0.75)!important;
+    border-radius: 15px;
+}
+.im-card{
+    border-radius: 15px;
+}
+.btn-ord{
+    border-radius: 15px;
+    background-color:#343a40;
+    border: none;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fff;
+    cursor: pointer!important;
+}
+.btn-ord:hover{
+    background-color:rgb(236, 179, 73);
+}
+hr{
+    border: solid 3px #394867;;
+}
+.text-f p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.copyright{
+    letter-spacing: .4em;
+}
+.copyright a{
+    text-decoration: none;
+}
+.text-fter{
+    font-weight: normal;
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+.pp{
+    padding-top: 8%;
+}
+.myOrders{
+    margin-top: 5%;
+}
+@media (max-width: 768px) {
+    .myOrders{
+        margin-top: 30%;
+    }
+    .bg-2{
+        padding-top: 20%;
+    }
+    .pads{
+        padding-top: 8rem!important;
+        width: 100%;
+        padding-left: 6rem;
+        padding-top: 0;
+    }
+    .nb{
+        font-size: 1em;
+        font-weight: 800;
+        color: #fff!important;
+        letter-spacing: .4em;
+    }
+    .ii{
+        width: 10%;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .bg-2{
+        background-size:auto;
+    }
+    .tit{
+        font-size:xx-large;
+        background-color: black;
+        padding: 3%;
+    }
+    .titlsmall{
+        font-size: large;
+    }
+    .card-sm{
+        display: none;
+    }
+    .pp{
+        padding-top: 25%;
+    }
+    .ff{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }.mylogow{
+        width: 30%;
+    }
+  }
+  /* Styles for screens larger than 768px */
+@media (min-width: 768px) {
+    .titlsmall{
+        font-size: 1vw;
+    }
+    .tit{
+        font-size: 2vw;
+    }.mylogow{
+        width: 70%;
+    }
+  }
+
+
+
+
+
+  .fixed-size-img {
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* This will ensure the image covers the entire area */
+    width: 100%;
+  }
+  
+ 

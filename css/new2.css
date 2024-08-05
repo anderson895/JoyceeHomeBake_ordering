@@ -1,0 +1,62 @@
+.nav2{
+    padding-top: 6.5%;
+    border-right: 2px solid black;
+}
+.nav3{
+    padding-top: 6.5%;
+}
+.nav2-item{
+    margin: 2%!important;
+    padding: 1%!important;
+    cursor: pointer;
+}
+.nav2-item a{
+    color: black!important;
+    text-decoration: none;
+}
+.nav2-item:hover{
+    color: #ffffff;
+}
+.mt-10{
+    margin-top: 7%;
+}
+.btn-none{
+    padding: 2%;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 2%;
+}
+.card{
+    border: 2px solid sandybrown;
+}
+.btn-none:hover{
+    color: #ffffff!important;
+}
+.ttrow{
+    font-size: large;
+}
+@media (max-width: 768px) {
+    .nav2{
+        display: none;
+    }
+    .mt-10{
+        margin-top: 35%;
+    }
+    
+}
+@media (min-width: 768px) {
+    .nav2{
+        padding-top: 15%;
+    }
+}
+@media (min-width: 992px) {
+    .nav2{
+        padding-top: 12%;
+    }
+  }
+@media (min-width: 1200px) {
+    .nav2{
+        padding-top: 7%;
+    }
+  }
